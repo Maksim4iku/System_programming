@@ -1,0 +1,1 @@
+]633;E;find "../Соловьев Максим Николаевич" -maxdepth 1 -name 'T*' -type f -exec cat {} \\\x3b;e43eeb5e-5a08-4991-bb5e-6bdbf223d27f]633;C

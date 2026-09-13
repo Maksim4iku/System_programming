@@ -1,0 +1,38 @@
+1.
+mkdir Work
+cd Work
+2.
+mkdir "Лабораторная работа №1!"
+mkdir "Соловьев Максим Николаевич"
+chmod ug=rwx,o=w "Контрольная работа №1!"
+chmod u=w,g=,o= "Соловьев Максим Николаевич"
+3.
+touch "Text @1"
+touch 'Text $2'
+touch "Text #3"
+4.
+echo "Птица говорун отличается умом и сообразительностью!" > "Text @1"
+echo "Отличается умом, отличается сообразительностью..." >> 'Text @1"
+5.
+cp 'Text @1' 'Text $2'
+6.
+mv 'Text $2' "Лабораторная работа №1"
+sudo cp "Text @1" "Соловьев Максим Николаевич/"
+7.
+gzip "Text @1" "Text #3"
+tar -cvf MyAchiv "Text @1.gz" "Text #3.gz"
+8.
+gzip -d "Text #3.gz"
+gzip -d "Text @1.gz"
+head -n 1 "Text @1" > temp_file && cat "Text #3" >> temp_file && mv temp_file "Text #3"
+echo "Будь осторожен! Преступник вооружен!" >> "Text #3"
+9.
+sudo sh -c 'tac "Text @1" > "Соловьев Максим Николаевич/Result_one"'
+10.
+sudo mv "Соловьев Максим Николаевич/Result_one" "Соловьев Максим Николаевич/Result_two"
+11.
+cd "Лабораторная работа №1!"
+sudo sh -c 'find "../Соловьев Максим Николаевич" -maxdepth 1 -name "T*" -type f -exec cat {} \; > Result_3'
+12.
+uname -a >> Result_3
+date >> Result_3
