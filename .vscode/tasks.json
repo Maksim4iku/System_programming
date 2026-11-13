@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build FASM",
+      "type": "shell",
+      "group": "build",
+      "problemMatcher": [],
+      "options": {
+        "env": {
+          "FASM": "${config:fasm.assemblerPath}",
+          "INCLUDE": "${config:fasm.includePath}"
+        }
+      },
+      "command": "${config:fasm.assemblerPath}/fasm.exe",
+      "args": [
+        "/home/maksim4ik/System_programming/Lab_4/Test_2.asm",
+        "/home/maksim4ik/System_programming/Lab_4/Test_2"
+      ]
+    }
+  ],
+  "activeFilePath": "/home/maksim4ik/System_programming/Lab_4/Test_2.asm",
+  "executionFilePath": "/home/maksim4ik/System_programming/Lab_4/Test_2",
+  "additionalOutputFilePath": "",
+  "debuggerFilePath": ""
+}

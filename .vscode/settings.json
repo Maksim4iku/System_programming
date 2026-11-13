@@ -1,0 +1,7 @@
+{
+    "fasm2Studio.defaultDialect": "fasm2",
+    "fasm2Studio.fasm2CompilerPath": "   /home/maksim4ik/fasm2/fasm2",
+    "fasm2Studio.fasm2Preload": "",
+    "fasm2Studio.gdbPath": "/usr/bin/gdb",
+    "fasm2Studio.fasm1CompilerPath": "/usr/bin/fasm"
+}
